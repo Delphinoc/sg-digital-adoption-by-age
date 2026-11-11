@@ -4,11 +4,9 @@ How far have Singapore's seniors come in going digital, and where do they still 
 
 This project analyses IMDA's *Annual Survey on Infocomm Usage* (published on data.gov.sg) to compare digital adoption across age groups. It looks at three steps: owning a smartphone, using the internet, and buying online.
 
-**Stack:** Python (pandas) · SQL (DuckDB) · pytest · interactive dashboard (d3)
+**Stack:** Python (pandas) · SQL (DuckDB) · pytest · matplotlib
 
-**Dashboard:** [add the dashboard's share link here]
-
-![The digital adoption ladder, 2024](outputs/charts/adoption_ladder_2024.png)
+![Dashboard](outputs/dashboard.png)
 
 ## Key findings
 
@@ -48,7 +46,7 @@ DuckDB SQL models (sql/)
    ├── 03_mart_adoption_ladder  smartphone → internet → online purchase drop-offs
    └── 04_mart_gap_change       how much each gap closed, 2017 → 2024
    ▼
-data/processed/*.csv  → interactive dashboard + outputs/charts/*.png
+data/processed/*.csv  → outputs/dashboard.png + outputs/charts/*.png
 ```
 
 ### Data-quality rules (`src/checks.py`)
@@ -80,6 +78,7 @@ pip install -r requirements.txt
 python scripts/download_data.py   # optional: refresh raw data from data.gov.sg
 python -m src.pipeline            # checks + SQL models + export to data/processed/
 python -m src.charts              # README charts
+python -m src.dashboard_image     # one-page dashboard image
 pytest                            # 21 tests
 ```
 
