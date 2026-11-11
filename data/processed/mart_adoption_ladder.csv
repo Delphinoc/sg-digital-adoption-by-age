@@ -1,0 +1,97 @@
+segment,segment_label,year,ladder_step,indicator,pct,drop_from_prev_pp
+age_18_39,18-39,2017,1,smartphone_ownership,99.84,
+age_18_39,18-39,2017,2,internet_usage,99.39,-0.45
+age_18_39,18-39,2017,3,online_purchase,81.14,-18.25
+age_18_39,18-39,2018,1,smartphone_ownership,99.65,
+age_18_39,18-39,2018,2,internet_usage,99.89,0.24
+age_18_39,18-39,2018,3,online_purchase,87.78,-12.11
+age_18_39,18-39,2019,1,smartphone_ownership,100.0,
+age_18_39,18-39,2019,2,internet_usage,99.78,-0.22
+age_18_39,18-39,2019,3,online_purchase,92.48,-7.3
+age_18_39,18-39,2020,1,smartphone_ownership,100.0,
+age_18_39,18-39,2020,2,internet_usage,99.57,-0.43
+age_18_39,18-39,2020,3,online_purchase,97.28,-2.29
+age_18_39,18-39,2021,1,smartphone_ownership,99.91,
+age_18_39,18-39,2021,2,internet_usage,99.74,-0.17
+age_18_39,18-39,2021,3,online_purchase,93.66,-6.08
+age_18_39,18-39,2022,1,smartphone_ownership,99.91,
+age_18_39,18-39,2022,2,internet_usage,99.11,-0.8
+age_18_39,18-39,2022,3,online_purchase,81.0,-18.11
+age_18_39,18-39,2023,1,smartphone_ownership,99.79,
+age_18_39,18-39,2023,2,internet_usage,98.46,-1.33
+age_18_39,18-39,2023,3,online_purchase,86.03,-12.43
+age_18_39,18-39,2024,1,smartphone_ownership,99.79,
+age_18_39,18-39,2024,2,internet_usage,97.84,-1.95
+age_18_39,18-39,2024,3,online_purchase,92.85,-4.99
+age_40_59,40-59,2017,1,smartphone_ownership,96.91,
+age_40_59,40-59,2017,2,internet_usage,90.75,-6.16
+age_40_59,40-59,2017,3,online_purchase,46.26,-44.49
+age_40_59,40-59,2018,1,smartphone_ownership,97.74,
+age_40_59,40-59,2018,2,internet_usage,93.03,-4.71
+age_40_59,40-59,2018,3,online_purchase,55.69,-37.34
+age_40_59,40-59,2019,1,smartphone_ownership,99.17,
+age_40_59,40-59,2019,2,internet_usage,97.08,-2.09
+age_40_59,40-59,2019,3,online_purchase,65.32,-31.76
+age_40_59,40-59,2020,1,smartphone_ownership,99.44,
+age_40_59,40-59,2020,2,internet_usage,97.63,-1.81
+age_40_59,40-59,2020,3,online_purchase,72.4,-25.23
+age_40_59,40-59,2021,1,smartphone_ownership,99.37,
+age_40_59,40-59,2021,2,internet_usage,97.98,-1.39
+age_40_59,40-59,2021,3,online_purchase,80.04,-17.94
+age_40_59,40-59,2022,1,smartphone_ownership,99.62,
+age_40_59,40-59,2022,2,internet_usage,98.33,-1.29
+age_40_59,40-59,2022,3,online_purchase,70.22,-28.11
+age_40_59,40-59,2023,1,smartphone_ownership,99.57,
+age_40_59,40-59,2023,2,internet_usage,95.56,-4.01
+age_40_59,40-59,2023,3,online_purchase,72.71,-22.85
+age_40_59,40-59,2024,1,smartphone_ownership,99.54,
+age_40_59,40-59,2024,2,internet_usage,95.95,-3.59
+age_40_59,40-59,2024,3,online_purchase,82.72,-13.23
+age_60_plus,60+,2017,1,smartphone_ownership,73.58,
+age_60_plus,60+,2017,2,internet_usage,41.7,-31.88
+age_60_plus,60+,2017,3,online_purchase,7.96,-33.74
+age_60_plus,60+,2018,1,smartphone_ownership,81.42,
+age_60_plus,60+,2018,2,internet_usage,55.5,-25.92
+age_60_plus,60+,2018,3,online_purchase,13.77,-41.73
+age_60_plus,60+,2019,1,smartphone_ownership,81.11,
+age_60_plus,60+,2019,2,internet_usage,58.03,-23.08
+age_60_plus,60+,2019,3,online_purchase,16.64,-41.39
+age_60_plus,60+,2020,1,smartphone_ownership,86.57,
+age_60_plus,60+,2020,2,internet_usage,73.14,-13.43
+age_60_plus,60+,2020,3,online_purchase,17.65,-55.49
+age_60_plus,60+,2021,1,smartphone_ownership,86.64,
+age_60_plus,60+,2021,2,internet_usage,80.94,-5.7
+age_60_plus,60+,2021,3,online_purchase,32.38,-48.56
+age_60_plus,60+,2022,1,smartphone_ownership,89.46,
+age_60_plus,60+,2022,2,internet_usage,77.93,-11.53
+age_60_plus,60+,2022,3,online_purchase,31.23,-46.7
+age_60_plus,60+,2023,1,smartphone_ownership,87.15,
+age_60_plus,60+,2023,2,internet_usage,76.46,-10.69
+age_60_plus,60+,2023,3,online_purchase,20.01,-56.45
+age_60_plus,60+,2024,1,smartphone_ownership,88.93,
+age_60_plus,60+,2024,2,internet_usage,77.28,-11.65
+age_60_plus,60+,2024,3,online_purchase,29.96,-47.32
+all_18_plus,All 18+,2017,1,smartphone_ownership,92.57,
+all_18_plus,All 18+,2017,2,internet_usage,82.57,-10.0
+all_18_plus,All 18+,2017,3,online_purchase,50.45,-32.12
+all_18_plus,All 18+,2018,1,smartphone_ownership,94.49,
+all_18_plus,All 18+,2018,2,internet_usage,86.47,-8.02
+all_18_plus,All 18+,2018,3,online_purchase,57.49,-28.98
+all_18_plus,All 18+,2019,1,smartphone_ownership,94.95,
+all_18_plus,All 18+,2019,2,internet_usage,88.3,-6.65
+all_18_plus,All 18+,2019,3,online_purchase,63.36,-24.94
+all_18_plus,All 18+,2020,1,smartphone_ownership,96.29,
+all_18_plus,All 18+,2020,2,internet_usage,91.96,-4.33
+all_18_plus,All 18+,2020,3,online_purchase,67.32,-24.64
+all_18_plus,All 18+,2021,1,smartphone_ownership,96.03,
+all_18_plus,All 18+,2021,2,internet_usage,93.89,-2.14
+all_18_plus,All 18+,2021,3,online_purchase,71.78,-22.11
+all_18_plus,All 18+,2022,1,smartphone_ownership,96.84,
+all_18_plus,All 18+,2022,2,internet_usage,92.82,-4.02
+all_18_plus,All 18+,2022,3,online_purchase,63.02,-29.8
+all_18_plus,All 18+,2023,1,smartphone_ownership,96.17,
+all_18_plus,All 18+,2023,2,internet_usage,91.25,-4.92
+all_18_plus,All 18+,2023,3,online_purchase,62.73,-28.52
+all_18_plus,All 18+,2024,1,smartphone_ownership,96.47,
+all_18_plus,All 18+,2024,2,internet_usage,91.06,-5.41
+all_18_plus,All 18+,2024,3,online_purchase,70.58,-20.48

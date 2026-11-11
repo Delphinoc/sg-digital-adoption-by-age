@@ -1,0 +1,121 @@
+indicator,segment,segment_type,ladder_step,year,pct,segment_label
+internet_usage,all_18_plus,age,2,2024,91.06,All 18+
+internet_usage,age_18_39,age,2,2024,97.84,18-39
+internet_usage,age_40_59,age,2,2024,95.95,40-59
+internet_usage,age_60_plus,age,2,2024,77.28,60+
+internet_usage,all_18_plus,age,2,2023,91.25,All 18+
+internet_usage,age_18_39,age,2,2023,98.46,18-39
+internet_usage,age_40_59,age,2,2023,95.56,40-59
+internet_usage,age_60_plus,age,2,2023,76.46,60+
+internet_usage,all_18_plus,age,2,2022,92.82,All 18+
+internet_usage,age_18_39,age,2,2022,99.11,18-39
+internet_usage,age_40_59,age,2,2022,98.33,40-59
+internet_usage,age_60_plus,age,2,2022,77.93,60+
+internet_usage,all_18_plus,age,2,2021,93.89,All 18+
+internet_usage,age_18_39,age,2,2021,99.74,18-39
+internet_usage,age_40_59,age,2,2021,97.98,40-59
+internet_usage,age_60_plus,age,2,2021,80.94,60+
+internet_usage,all_18_plus,age,2,2020,91.96,All 18+
+internet_usage,age_18_39,age,2,2020,99.57,18-39
+internet_usage,age_40_59,age,2,2020,97.63,40-59
+internet_usage,age_60_plus,age,2,2020,73.14,60+
+internet_usage,all_18_plus,age,2,2019,88.3,All 18+
+internet_usage,age_18_39,age,2,2019,99.78,18-39
+internet_usage,age_40_59,age,2,2019,97.08,40-59
+internet_usage,age_60_plus,age,2,2019,58.03,60+
+internet_usage,all_18_plus,age,2,2018,86.47,All 18+
+internet_usage,age_18_39,age,2,2018,99.89,18-39
+internet_usage,age_40_59,age,2,2018,93.03,40-59
+internet_usage,age_60_plus,age,2,2018,55.5,60+
+internet_usage,all_18_plus,age,2,2017,82.57,All 18+
+internet_usage,age_18_39,age,2,2017,99.39,18-39
+internet_usage,age_40_59,age,2,2017,90.75,40-59
+internet_usage,age_60_plus,age,2,2017,41.7,60+
+smartphone_ownership,all_18_plus,age,1,2024,96.47,All 18+
+smartphone_ownership,age_18_39,age,1,2024,99.79,18-39
+smartphone_ownership,age_40_59,age,1,2024,99.54,40-59
+smartphone_ownership,age_60_plus,age,1,2024,88.93,60+
+smartphone_ownership,all_18_plus,age,1,2023,96.17,All 18+
+smartphone_ownership,age_18_39,age,1,2023,99.79,18-39
+smartphone_ownership,age_40_59,age,1,2023,99.57,40-59
+smartphone_ownership,age_60_plus,age,1,2023,87.15,60+
+smartphone_ownership,all_18_plus,age,1,2022,96.84,All 18+
+smartphone_ownership,age_18_39,age,1,2022,99.91,18-39
+smartphone_ownership,age_40_59,age,1,2022,99.62,40-59
+smartphone_ownership,age_60_plus,age,1,2022,89.46,60+
+smartphone_ownership,all_18_plus,age,1,2021,96.03,All 18+
+smartphone_ownership,age_18_39,age,1,2021,99.91,18-39
+smartphone_ownership,age_40_59,age,1,2021,99.37,40-59
+smartphone_ownership,age_60_plus,age,1,2021,86.64,60+
+smartphone_ownership,all_18_plus,age,1,2020,96.29,All 18+
+smartphone_ownership,age_18_39,age,1,2020,100.0,18-39
+smartphone_ownership,age_40_59,age,1,2020,99.44,40-59
+smartphone_ownership,age_60_plus,age,1,2020,86.57,60+
+smartphone_ownership,all_18_plus,age,1,2019,94.95,All 18+
+smartphone_ownership,age_18_39,age,1,2019,100.0,18-39
+smartphone_ownership,age_40_59,age,1,2019,99.17,40-59
+smartphone_ownership,age_60_plus,age,1,2019,81.11,60+
+smartphone_ownership,all_18_plus,age,1,2018,94.49,All 18+
+smartphone_ownership,age_18_39,age,1,2018,99.65,18-39
+smartphone_ownership,age_40_59,age,1,2018,97.74,40-59
+smartphone_ownership,age_60_plus,age,1,2018,81.42,60+
+smartphone_ownership,all_18_plus,age,1,2017,92.57,All 18+
+smartphone_ownership,age_18_39,age,1,2017,99.84,18-39
+smartphone_ownership,age_40_59,age,1,2017,96.91,40-59
+smartphone_ownership,age_60_plus,age,1,2017,73.58,60+
+online_purchase,all_18_plus,age,3,2024,70.58,All 18+
+online_purchase,age_18_39,age,3,2024,92.85,18-39
+online_purchase,age_40_59,age,3,2024,82.72,40-59
+online_purchase,age_60_plus,age,3,2024,29.96,60+
+online_purchase,all_18_plus,age,3,2023,62.73,All 18+
+online_purchase,age_18_39,age,3,2023,86.03,18-39
+online_purchase,age_40_59,age,3,2023,72.71,40-59
+online_purchase,age_60_plus,age,3,2023,20.01,60+
+online_purchase,all_18_plus,age,3,2022,63.02,All 18+
+online_purchase,age_18_39,age,3,2022,81.0,18-39
+online_purchase,age_40_59,age,3,2022,70.22,40-59
+online_purchase,age_60_plus,age,3,2022,31.23,60+
+online_purchase,all_18_plus,age,3,2021,71.78,All 18+
+online_purchase,age_18_39,age,3,2021,93.66,18-39
+online_purchase,age_40_59,age,3,2021,80.04,40-59
+online_purchase,age_60_plus,age,3,2021,32.38,60+
+online_purchase,all_18_plus,age,3,2020,67.32,All 18+
+online_purchase,age_18_39,age,3,2020,97.28,18-39
+online_purchase,age_40_59,age,3,2020,72.4,40-59
+online_purchase,age_60_plus,age,3,2020,17.65,60+
+online_purchase,all_18_plus,age,3,2019,63.36,All 18+
+online_purchase,age_18_39,age,3,2019,92.48,18-39
+online_purchase,age_40_59,age,3,2019,65.32,40-59
+online_purchase,age_60_plus,age,3,2019,16.64,60+
+online_purchase,all_18_plus,age,3,2018,57.49,All 18+
+online_purchase,age_18_39,age,3,2018,87.78,18-39
+online_purchase,age_40_59,age,3,2018,55.69,40-59
+online_purchase,age_60_plus,age,3,2018,13.77,60+
+online_purchase,all_18_plus,age,3,2017,50.45,All 18+
+online_purchase,age_18_39,age,3,2017,81.14,18-39
+online_purchase,age_40_59,age,3,2017,46.26,40-59
+online_purchase,age_60_plus,age,3,2017,7.96,60+
+household_internet_access,hh_all,household,0,2024,98.52,All households
+household_internet_access,hh_school_children,household,0,2024,99.79,Households with school-going children
+household_internet_access,hh_seniors_only,household,0,2024,93.9,Seniors-only households
+household_internet_access,hh_all,household,0,2023,98.46,All households
+household_internet_access,hh_school_children,household,0,2023,99.77,Households with school-going children
+household_internet_access,hh_seniors_only,household,0,2023,92.19,Seniors-only households
+household_internet_access,hh_all,household,0,2022,98.68,All households
+household_internet_access,hh_school_children,household,0,2022,100.0,Households with school-going children
+household_internet_access,hh_seniors_only,household,0,2022,92.75,Seniors-only households
+household_internet_access,hh_all,household,0,2021,99.32,All households
+household_internet_access,hh_school_children,household,0,2021,100.0,Households with school-going children
+household_internet_access,hh_seniors_only,household,0,2021,93.4,Seniors-only households
+household_internet_access,hh_all,household,0,2020,98.44,All households
+household_internet_access,hh_school_children,household,0,2020,100.0,Households with school-going children
+household_internet_access,hh_seniors_only,household,0,2020,89.82,Seniors-only households
+household_internet_access,hh_all,household,0,2019,98.43,All households
+household_internet_access,hh_school_children,household,0,2019,100.0,Households with school-going children
+household_internet_access,hh_seniors_only,household,0,2019,90.02,Seniors-only households
+household_internet_access,hh_all,household,0,2018,97.74,All households
+household_internet_access,hh_school_children,household,0,2018,100.0,Households with school-going children
+household_internet_access,hh_seniors_only,household,0,2018,85.49,Seniors-only households
+household_internet_access,hh_all,household,0,2017,91.06,All households
+household_internet_access,hh_school_children,household,0,2017,97.95,Households with school-going children
+household_internet_access,hh_seniors_only,household,0,2017,55.18,Seniors-only households
