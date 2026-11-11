@@ -1,0 +1,5 @@
+indicator_key,indicator_code,indicator_name,ladder_step,is_on_ladder,population_unit
+1,household_internet_access,Household has internet access,0,False,household
+2,smartphone_ownership,Owns a smartphone,1,True,age
+3,internet_usage,Uses the internet,2,True,age
+4,online_purchase,Made an online purchase,3,True,age

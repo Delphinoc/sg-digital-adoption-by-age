@@ -41,3 +41,41 @@ One row per age-based indicator.
 | senior_pct_first / senior_pct_latest | float | 60+ adoption in the first and latest year |
 | gap_pp_first / gap_pp_latest | float | Gap with 18–39 in the first and latest year |
 | gap_closed_pp | float | How many points the gap narrowed (positive = narrowed) |
+
+## Star schema
+
+### fact_adoption
+One row per indicator × segment × year.
+
+| Field | Type | Description |
+|---|---|---|
+| indicator_key | int | Foreign key to `dim_indicator` |
+| segment_key | int | Foreign key to `dim_segment` |
+| year_key | int | Foreign key to `dim_year` (the survey year) |
+| pct | float | Adoption rate for the segment |
+| yoy_change_pp | float | Change from the previous survey year, in percentage points (blank for 2017) |
+
+### dim_indicator
+| Field | Type | Description |
+|---|---|---|
+| indicator_key | int | Surrogate key |
+| indicator_code / indicator_name | text | Code and readable name |
+| ladder_step | int | Position on the adoption ladder (0 = not on the ladder) |
+| is_on_ladder | bool | True for the three individual indicators |
+| population_unit | text | `age` (individuals) or `household` |
+
+### dim_segment
+| Field | Type | Description |
+|---|---|---|
+| segment_key | int | Surrogate key |
+| segment_code / segment_label | text | Code and readable label |
+| segment_type | text | `age` or `household` |
+| is_senior_segment | bool | True for `60+` and seniors-only households |
+| is_overall_segment | bool | True for the all-residents / all-households totals |
+
+### dim_year
+| Field | Type | Description |
+|---|---|---|
+| year_key / year | int | Survey year |
+| is_first_year / is_latest_year | bool | Flags 2017 and 2024 (recomputed if a new year is added) |
+| is_post_2020 | bool | True from 2020 onwards |

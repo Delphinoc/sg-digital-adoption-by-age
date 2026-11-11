@@ -1,0 +1,9 @@
+year_key,year,is_first_year,is_latest_year,is_post_2020
+2022,2022,False,False,True
+2019,2019,False,False,False
+2017,2017,True,False,False
+2024,2024,False,True,True
+2023,2023,False,False,True
+2021,2021,False,False,True
+2020,2020,False,False,True
+2018,2018,False,False,False

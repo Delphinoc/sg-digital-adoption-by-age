@@ -44,7 +44,10 @@ def run_models(con: duckdb.DuckDBPyConnection, raw_long: pd.DataFrame) -> None:
 
 def export(con: duckdb.DuckDBPyConnection, out_dir=PROCESSED_DIR) -> list[str]:
     out_dir.mkdir(parents=True, exist_ok=True)
-    tables = ["stg_indicators", "mart_age_gap", "mart_adoption_ladder", "mart_gap_change"]
+    tables = [
+        "stg_indicators", "mart_age_gap", "mart_adoption_ladder", "mart_gap_change",
+        "dim_indicator", "dim_segment", "dim_year", "fact_adoption",
+    ]
     for t in tables:
         con.execute(f"SELECT * FROM {t}").df().to_csv(out_dir / f"{t}.csv", index=False)
     return tables

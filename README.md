@@ -4,7 +4,7 @@ How far have Singapore's seniors come in going digital, and where do they still 
 
 This project analyses IMDA's *Annual Survey on Infocomm Usage* (published on data.gov.sg) to compare digital adoption across age groups. It looks at three steps: owning a smartphone, using the internet, and buying online.
 
-**Stack:** Python (pandas) · SQL (DuckDB) · pytest · matplotlib
+**Stack:** Python (pandas) · SQL (DuckDB) · star-schema data model · pytest · matplotlib
 
 ![Dashboard](outputs/dashboard.png)
 
@@ -44,10 +44,31 @@ DuckDB SQL models (sql/)
    ├── 01_stg_indicators        tidy indicator x segment x year
    ├── 02_mart_age_gap          18–39 vs 60+ gap and parity, per year
    ├── 03_mart_adoption_ladder  smartphone → internet → online purchase drop-offs
-   └── 04_mart_gap_change       how much each gap closed, 2017 → 2024
+   ├── 04_mart_gap_change       how much each gap closed, 2017 → 2024
+   ├── 05_dim_tables            dim_indicator, dim_segment, dim_year
+   └── 06_fact_adoption         fact table: indicator × segment × year
    ▼
 data/processed/*.csv  → outputs/dashboard.png + outputs/charts/*.png
 ```
+
+### Star schema
+
+Alongside the analysis marts, the staging table is modelled into a small star schema, so BI tools can slice any measure by indicator, segment and year without repeating labels on every row.
+
+```
+            dim_indicator
+                  │
+dim_segment ── fact_adoption ── dim_year
+```
+
+| Table | Grain | Key fields |
+|---|---|---|
+| `fact_adoption` | indicator × segment × year | `indicator_key`, `segment_key`, `year_key`, `pct`, `yoy_change_pp` |
+| `dim_indicator` | survey indicator | `indicator_key`, `indicator_name`, `ladder_step`, `population_unit` |
+| `dim_segment` | age band or household type | `segment_key`, `segment_label`, `is_senior_segment` |
+| `dim_year` | survey year | `year_key`, `is_first_year`, `is_latest_year`, `is_post_2020` |
+
+Tests check that every dimension key is unique, the fact table has one row per grain with no orphan keys, it reconciles row-for-row to staging, and rebuilding the senior gap from the star schema matches `mart_age_gap`.
 
 ### Data-quality rules (`src/checks.py`)
 
@@ -69,7 +90,7 @@ On the current data, rules 1–8 pass. Rule 9 flags 7 swings for review, includi
 
 ### Tests
 
-21 pytest tests: each data-quality rule is shown to catch an injected issue, and the SQL models are checked for row counts, gap arithmetic and reconciliation back to staging.
+28 pytest tests: each data-quality rule is shown to catch an injected issue; the SQL models are checked for row counts, gap arithmetic and reconciliation back to staging; and the star schema is checked for key integrity, grain and reconciliation.
 
 ## Run it
 
@@ -79,10 +100,10 @@ python scripts/download_data.py   # optional: refresh raw data from data.gov.sg
 python -m src.pipeline            # checks + SQL models + export to data/processed/
 python -m src.charts              # README charts
 python -m src.dashboard_image     # one-page dashboard image
-pytest                            # 21 tests
+pytest                            # 28 tests
 ```
 
-If you'd like a Tableau Public version too, build steps are in [`docs/tableau_guide.md`](docs/tableau_guide.md). Field definitions are in [`docs/data_dictionary.md`](docs/data_dictionary.md).
+If you'd like a Tableau Public version too, build steps are in [`docs/tableau_guide.md`](docs/tableau_guide.md). Field definitions are in [`docs/data_dictionary.md`](docs/data_dictionary.md). Ownership, classification and catalogue entries are in [`docs/data_governance.md`](docs/data_governance.md).
 
 ## Limitations
 
